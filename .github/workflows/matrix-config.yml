@@ -16,7 +16,7 @@ jobs:
                       images: alpine
                 include:
                     - os: ubuntu-latest
-                      images: amd/alpine
+                      images: amd64/alpine
         runs-on: ${{ matrix.os }}
         steps:
             - name: Echo docker details
